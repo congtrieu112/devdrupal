@@ -1,0 +1,9 @@
+name = testtemplate 
+description = template t
+core = 7.x 
+stylesheets[all][] = css/base.css 
+stylesheets[all][] = css/style.css 
+scripts[] = js/ttvn.js 
+regions[content] = Content 
+regions[header] = Header 
+regions[footer] = Footer 
