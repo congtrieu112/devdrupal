@@ -1,0 +1,27 @@
+name = blogdrupal
+description = blogdrupal for example
+core = 7.x
+version = 1
+settings[facebook_url] = 'http://facebook.com'iwwer
+settings[google_url] = 'http://plus.google.com'
+settings[mail_url] = 'http://mail.com'
+settings[twitter_url] = 'http://twitter.com'
+settings[social_display] = 1
+stylesheets[all][] = bootstrap/css/bootstrap.min.css
+stylesheets[all][] = bootstrap/css/bootstrap-responsive.min.css
+
+stylesheets[all][] = css/nivo-slider.css
+stylesheets[all][] = css/anythingslider.cs
+stylesheets[all][] = css/lightbox.css
+stylesheets[all][] = css/style.css
+
+scripts[] = js/jquery.js
+scripts[] = bootstrap/js/bootstrap.min.js
+scripts[] = js/jquery.nivo.slider.pack.js
+scripts[] = js/jquery.arctext.js
+scripts[] = js/jquery.anythingslider.min.js
+scripts[] = js/lightbox.js
+scripts[] = js/selectnav.min.js
+
+
+
